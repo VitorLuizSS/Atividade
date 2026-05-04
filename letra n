@@ -1,0 +1,14 @@
+soma = 0
+qtd = 0
+
+while True:
+    n = float(input("Número: "))
+    if n < 0:
+        break
+    soma += n
+    qtd += 1
+
+if qtd > 0:
+    print("Soma:", soma)
+    print("Média:", soma / qtd)
+    print("Quantidade:", qtd)
