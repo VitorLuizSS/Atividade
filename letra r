@@ -1,0 +1,10 @@
+valores = []
+
+while True:
+    n = int(input("Número: "))
+    if n < 0:
+        break
+    valores.append(n)
+
+print("Maior:", max(valores))
+print("Menor:", min(valores))
