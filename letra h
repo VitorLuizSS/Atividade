@@ -1,0 +1,8 @@
+base = int(input("Base: "))
+exp = int(input("Expoente: "))
+
+resultado = 1
+for i in range(exp):
+    resultado *= base
+
+print("Resultado:", resultado)
