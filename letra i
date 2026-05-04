@@ -1,0 +1,11 @@
+atual = 1
+anterior = 1
+
+print(anterior)
+print(atual)
+
+for i in range(13):
+    proximo = atual + anterior
+    print(proximo)
+    anterior = atual
+    atual = proximo
