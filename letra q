@@ -1,0 +1,17 @@
+total = 0
+
+while True:
+    nome = input("Nome do cômodo: ")
+    largura = float(input("Largura: "))
+    comprimento = float(input("Comprimento: "))
+
+    area = largura * comprimento
+    total += area
+
+    print("Área:", area)
+
+    continuar = input("Continuar? (S/N): ")
+    if continuar.upper() == "N":
+        break
+
+print("Área total:", total)
