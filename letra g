@@ -1,0 +1,5 @@
+for exp in range(0, 16):
+    resultado = 1
+    for i in range(exp):
+        resultado *= 3
+    print(resultado)
