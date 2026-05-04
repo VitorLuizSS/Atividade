@@ -1,0 +1,10 @@
+soma = 0
+qtd = 0
+
+for i in range(50, 71):
+    if i % 2 == 0:
+        soma += i
+        qtd += 1
+
+print("Soma:", soma)
+print("Média:", soma / qtd)
